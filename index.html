@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تطبيقي لتعليم الإنجليزية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="app">
+        <header>
+            <h1>🌈 عالم الحروف 🔤</h1>
+            <p id="status-text">اضغط على البطاقة لتعلم النطق!</p>
+        </header>
+
+        <main class="grid-container" id="cards-container">
+            </main>
+
+        <nav class="tab-bar">
+            <button onclick="showSection('learn')" class="active">تعلم</button>
+            <button onclick="showSection('quiz')">اختبار</button>
+        </nav>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<div class="score-board">⭐ النجوم: <span id="star-count">0</span></div>
