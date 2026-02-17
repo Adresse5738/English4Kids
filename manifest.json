@@ -1,0 +1,16 @@
+{
+  "name": "English for Kids - عالم الحروف",
+  "short_name": "Eng4Kids",
+  "description": "تطبيق تفاعلي لتعليم الأطفال الحروف والكلمات الإنجليزية",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#F0F2F5",
+  "theme_color": "#6C5CE7",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/167/167756.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
